@@ -1,0 +1,143 @@
+body{
+    min-height: 100vh;
+}
+.PACK_img{
+    cursor: pointer;
+    margin: 10px 50px;
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+.options_hover{
+    transition: .5s;
+}
+.options_hover:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
+.Img_swiper{
+    height: calc(100vh - 110px);
+    width: 100%;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.card_bottm-line{
+    position: relative;
+}
+.card_bottm-line::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgb(193, 22, 216);
+}
+/* ------------------------svg------------------------ */
+.svg_circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: rgba(182, 134, 228, 0.4);
+    color:slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle_svg{
+    width: 50px;
+    height: 50px;
+}
+/* ----------------mid_btn------------------ */
+.mid_btn{
+    height: 200px;
+}
+.img_col6{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.img_col12{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+/* -------------------img_bottom_text---------------------- */
+.img_bottom_text{
+    height: 300px;
+}
+/* --------------------table_title_bg--------------------- */
+.table_title_bg{
+    background: rgb(243, 238, 238);
+}
+/* ---------------------table_bottom_text-------------------- */
+.table_bottom_text{
+    height: 300px;
+}
+/* --------------------pitchfork_text_line--------------------- */
+.pitchfork_text_line{
+    position: relative;
+}
+.pitchfork_text_line::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    height: 4px;
+    border-radius: 4px;
+    background: rgb(80, 22, 216);
+}
+/* --------------------four_img_bg-------------small_text------------------- */
+.four_img_bg{
+    background: rgba(231, 223, 223, 0.397);
+}
+.small_text{
+    font-size: 8pt;
+}
+/* -----------------------svg_circle_bottom-------------------- */
+.svg_circle_bottom{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(182, 134, 228, 0.4);
+    color:slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -----------------------catch_img_color--------------------- */
+.catch_img_color{
+    height: 100vh;
+}
