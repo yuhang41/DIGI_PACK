@@ -1,0 +1,14 @@
+
+.PACK_img{
+    cursor: pointer;
+    margin: 10px 50px;
+    background: red;
+    height: 100px;
+    width: 100px;
+}
+.options_hover{
+    transition: .5s;
+}
+.options_hover:hover{
+    background-color: rgba(0, 0, 0, .2);
+}
