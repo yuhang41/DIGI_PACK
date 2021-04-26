@@ -231,6 +231,7 @@ iframe{
     right: 10%;
     transform: translateY(-50%);
     background: white;
+    max-width: 400px;
 }
 label{
     width: 100%;
@@ -245,4 +246,13 @@ label #email{
     height: 150px;
     border: 1px solid rgba(0,0,0,.2);
     border-radius: 5px;
+}
+/* --------------footer---------------- */
+
+@media (max-width:700px){
+    .feedback{  
+        right: 50%;
+        transform: translate(50%,-50%);
+        width: 350px;
+    }
 }
