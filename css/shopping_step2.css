@@ -8,6 +8,15 @@
 .pt-20{
     padding-top: 20px;
 }
+.py-20{
+    padding: 20px 0;
+}
+.ml-8{
+    padding-left: 8px;
+}
+.ml-20{
+    padding-left: 20px;
+}
 
 main *{
     margin: 0;
@@ -44,6 +53,9 @@ main{
     background: #E5E7EB;
     z-index: 5;
 }
+.completeness:nth-child(1) .schedule_line::before{
+    background: #6EE7B7;
+}
 .confirm_shopping::after{
     content: '';
     position: absolute;
@@ -70,21 +82,8 @@ main{
     background: #E5E7EB;
     z-index: 5;
 }
-.logo img{
-    object-fit: cover;
-    object-position: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 12px;
-}
-.count{
-    padding-right: 32px;
-}
-.count input{
-    padding: 0 8px;
-    margin: 0 8px;
-    max-width: 32px;
+.completeness:nth-child(2) .schedule_Back_line::after{
+    background: #6EE7B7;
 }
 @media(max-width:768px){
     .schedule_line::before{
