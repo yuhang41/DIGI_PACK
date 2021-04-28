@@ -1,7 +1,7 @@
 
 .PACK_img{
     cursor: pointer;
-    margin: 10px 50px;
+    margin: 0 50px;
     background: red;
     height: 100px;
     width: 100px;
@@ -11,4 +11,34 @@
 }
 .options_hover:hover{
     background-color: rgba(0, 0, 0, .2);
+}
+.my_nav{
+    position: relative;
+}
+.user_login{
+    position: absolute;
+    bottom: -40px;
+    right: 0;
+    padding: 8px;
+    border-radius: 5px;
+    background: white;
+    transform:scale(0);
+    transition: .5s;
+}
+.user_login a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+.user_login.active{
+    z-index:10;
+    transform: scale(1);
+}
+@media(max-width:768px){
+    .ml-lg-16{
+        margin-left: 16px;
+    }
+    .user_login{
+        width: 100%;
+    }
 }
