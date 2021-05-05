@@ -1,0 +1,70 @@
+.pr-1{
+    padding-right: 4px;
+}
+.pl-1{
+    padding-left: 4px;
+}
+.py-6{
+    padding: 55px 0;
+}
+.py-7{
+    padding: 65px 0;
+}
+.py-8{
+    padding: 90px 0;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.px-20{
+    padding:0 20px;
+}
+.py-20{
+    padding: 20px 0;
+}
+.p-20{
+    padding: 20px;
+}
+.pb-40{
+    padding-bottom: 40px;
+}
+.py-96{
+    padding: 96px 0;
+}
+.pt-96{
+    padding-top: 96px;
+}
+.pb-96{
+    padding-bottom: 96px;
+}
+/* ------------------- */
+.mb-80{
+    margin-bottom: 80px;
+}
+.mt-64{
+    margin-top: 64px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.ml-40{
+    margin-left: 40px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.ml-8{
+    margin-left: 8px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+/* ---------------------- */
+.w-20{
+    width: 5rem;
+}
+@media(max-width:768px){
+    .ml-lg-16{
+        margin-left: 16px;
+    }
+}

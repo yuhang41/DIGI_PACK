@@ -2,31 +2,6 @@ body{
     min-height: 100vh;
 }
 /* ---------------------- Self-made ------------------- */
-.py-6{
-    padding: 55px 0;
-}
-.py-7{
-    padding: 65px 0;
-}
-.py-8{
-    padding: 90px 0;
-}
-.py-96{
-    padding: 96px 0;
-}
-.pt-96{
-    padding-top: 96px;
-}
-.pb-96{
-    padding-bottom: 96px;
-}
-.mb-80{
-    margin-bottom: 80px;
-}
-.mt-64{
-    margin-top: 64px;
-}
-
 .Img_swiper{
     height: calc(100vh - 110px);
     width: 100%;

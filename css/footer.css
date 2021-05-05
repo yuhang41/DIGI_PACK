@@ -1,14 +1,4 @@
 /* ---------------------- Self-made ------------------- */
-
-.py-6{
-    padding: 55px 0;
-}
-.py-7{
-    padding: 65px 0;
-}
-.py-8{
-    padding: 90px 0;
-}
 footer *{
         list-style: none;
         padding: 0;
@@ -37,6 +27,25 @@ footer .logo-title img{
 }
 .footer_bg{
     background: rgb(207, 200, 200);
+}
+.footer_options{
+    display: flex;
+    flex-wrap: wrap;
+    transition: flex 1s;
+}
+.footer_option {
+    width: calc(100% / 4);
+    transition: .5s;
+}
+@media (max-width:1200px){
+    .footer_option {
+        width: calc(100% / 2);
+    }
+}
+@media (max-width:768px){
+    .footer_option {
+        width:100%;
+    }
 }
 @media (max-width:700px){
     .feedback{  
