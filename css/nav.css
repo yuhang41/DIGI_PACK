@@ -34,6 +34,52 @@
     z-index:10;
     transform: scale(1);
 }
+.navbar_icon{
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background: rgba(0, 0, 0, .5);
+    margin: 20px 0;
+    margin-left: 10px;
+    transition: .5s;
+}
+.navbar_icon::after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 30px;
+    height: 2px;
+    background: rgba(0, 0, 0, .5);
+}
+.navbar_icon::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    width: 10px;
+    height: 2px;
+    background: rgba(0, 0, 0, .5);
+}
+.navbar_icon.active{
+    width: 30px;
+    margin-left: 0;
+    transform: rotate(45deg);
+}
+.navbar_icon.active::before{
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    transform: rotate(-90deg);
+}
+.navbar_icon.active::after{
+    content: '';
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transform: rotate(0deg);
+}
 @media(max-width:768px){
     .ml-lg-16{
         margin-left: 16px;
