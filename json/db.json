@@ -1,0 +1,17 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "commodity-chicken": 10.5,
+      "commodity-Shoes": 10.5,
+      "commodity-Boots": 10.5,
+      "count": 0
+    },
+    {
+      "commodity-chicken": 11,
+      "commodity-Shoes": 11,
+      "commodity-Boots": 11,
+      "id": 2
+    }
+  ]
+}
