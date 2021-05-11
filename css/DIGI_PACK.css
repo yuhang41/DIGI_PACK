@@ -80,8 +80,9 @@ img{
     object-fit: cover;
 }
 /* --------------------table_title_bg--------------------- */
-.table_title_bg{
+#table_title_bg{
     background: rgb(243, 238, 238);
+    border-radius: 10px;
 }
 /* ---------------------table_bottom_text-------------------- */
 .table_bottom_text{
