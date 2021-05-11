@@ -1,0 +1,22 @@
+{
+  "name": "digi_pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json":"json-server --watch json/db.json --port 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuhang41/DIGI_PACK.git"
+  },
+  "author": "yuhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuhang41/DIGI_PACK/issues"
+  },
+  "homepage": "https://github.com/yuhang41/DIGI_PACK#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
