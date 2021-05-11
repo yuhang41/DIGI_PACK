@@ -78,8 +78,8 @@ main{
     border-radius: 50%;
     margin-right: 12px;
 }
-.count{
-    padding-right: 32px;
+.amount{
+    width: 180px;
 }
 .count input{
     padding: 0 8px;

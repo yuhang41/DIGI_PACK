@@ -8,9 +8,13 @@
       "count": 0
     },
     {
-      "commodity-chicken": 11,
-      "commodity-Shoes": 11,
-      "commodity-Boots": 11,
+      "count": 8,
+      "sum": 84,
+      "price_Content": [
+        10.5,
+        10.5,
+        10.5
+      ],
       "id": 2
     }
   ]
