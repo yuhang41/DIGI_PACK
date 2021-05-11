@@ -1,6 +1,6 @@
-let commodity_chicken = 0;
-let commodity_Shoes = 0;
-let commodity_Boots = 0;
+// let commodity_chicken = 0;
+// let commodity_Shoes = 0;
+// let commodity_Boots = 0;
 let sum = 0;
 let inputs = [...document.querySelectorAll("input")];
 let addbtns = [...document.querySelectorAll(".add")];
@@ -16,7 +16,7 @@ prices.forEach((price)=>{
 costsHandler();
 function costsHandler(){
     costs.forEach((cost)=>{
-        cost.textContent = sum
+        cost.textContent = sum;
     })
 }
 
@@ -25,8 +25,8 @@ addbtns.forEach((addbtn,index)=>{
         inputs[index].value ++;
         count ++;
         total.textContent = count;
-        sum +=prices[index].textContent * 1
-        costsHandler()
+        sum += prices[index].textContent * 1;
+        costsHandler();
     })
 })
 lessbtns.forEach((lessbtn,index)=>{
@@ -34,8 +34,8 @@ lessbtns.forEach((lessbtn,index)=>{
         if(inputs[index].value < 1) return
         inputs[index].value -= 1;
         count --;
-        total.textContent = count
-        sum -=prices[index].textContent * 1
-        costsHandler()
+        total.textContent = count;
+        sum -=prices[index].textContent * 1;
+        costsHandler();
     })
 })
