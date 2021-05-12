@@ -104,6 +104,9 @@ img{
     background: rgb(80, 22, 216);
 }
 /* --------------------four_img_bg-------------small_text------------------- */
+.four_card{
+    transition: .5s;
+}
 .four_img_bg{
     background: rgba(231, 223, 223, 0.397);
 }
@@ -123,7 +126,7 @@ img{
 }
 /* -----------------------catch_img_color--------------------- */
 .catch_card{
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 .catch_card_img{
@@ -193,7 +196,7 @@ input[type=radio]{
     width: 20px;
     font-size: 40px;
     background: black;
-    color: gray;
+    color: #E5E7EB;
 }
 /* -------------------map ----------------------- */
 .map{
@@ -227,6 +230,32 @@ label #email{
     border-radius: 5px;
 }
 /* --------------footer---------------- */
+@media (min-width:640px){
+    .my_content{
+        max-width: 640px;
+    }
+}
+@media (min-width:768px){
+    .my_content{
+        max-width: 768px;
+    }
+}
+@media (min-width:1024px){
+    .my_content{
+        max-width: 1024px;
+    }
+}
+@media (min-width:1280px){
+    .my_content{
+        max-width: 1280px;
+    }
+}
+@media (min-width:1536px){
+    .my_content{
+        max-width: 1536px;
+        transition: .5s;
+    }
+}
 
 @media (max-width:768px){
     .Img_swiper{

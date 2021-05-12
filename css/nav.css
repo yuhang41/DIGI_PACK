@@ -1,5 +1,9 @@
 .nav_header{
+    max-width: 1280px;
     transition: .5s;
+}
+.nav_right{
+    width: calc(100% - 100px);
 }
 .PACK_img{
     cursor: pointer;
@@ -96,4 +100,7 @@
     .user_login{
         width: 100%;
     }
+}
+@media (min-width:768px){
+    
 }
