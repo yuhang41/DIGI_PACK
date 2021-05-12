@@ -3,8 +3,9 @@ body{
 }
 /* ---------------------- Self-made ------------------- */
 .Img_swiper{
-    
+    height: calc(100vh - 100px);
     width: 100%;
+    transition: 1s;
 }
 .swiper-container {
     width: 100%;
@@ -227,10 +228,21 @@ label #email{
 }
 /* --------------footer---------------- */
 
+@media (max-width:768px){
+    .Img_swiper{
+        height: unset;
+    }
+}
 @media (max-width:700px){
     .feedback{  
         right: 50%;
         transform: translate(50%,-50%);
         width: 350px;
+    }
+}
+@media (max-width:576px){
+    .svg_circle_bottom{
+        width: 80px;
+        height: 80px;
     }
 }
