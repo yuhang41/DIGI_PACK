@@ -60,6 +60,7 @@ function Calculation(n,index){
     sum += price_Content[index] * n;
 }
 
+//------------上傳資料到API
 function nextHandler(e){
     e.preventDefault();
     axios.put("http://localhost:8888/contact/1",{count,sum,price_Content})
